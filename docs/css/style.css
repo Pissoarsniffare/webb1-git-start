@@ -1,5 +1,11 @@
 body {
-    font-family: 'Nabla', cursive;
-    color: #333;
-    background-color: #efefef;
+    max-width: 65ch;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    font-family: serif;
+
 }

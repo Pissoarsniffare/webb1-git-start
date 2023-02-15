@@ -1,0 +1,44 @@
+.navbar > ul {
+    margin: 0;
+    list-style: none;
+    list-style: disc;
+}
+
+.navbar {
+    display: inline;
+    justify-content: space-around;
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0.5rem 0;
+    padding: 4vw;
+}
+.navbar > ol {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column-reverse;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding:1rem;
+}
+
+.brand svg {
+    fill: currentColor;
+    color: green;
+}
+
+header {
+    text-align: center;
+}
+
+.meny {
+    align-content: flex-end;
+}
